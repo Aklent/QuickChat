@@ -50,10 +50,10 @@ app.use("/api/messages", messageRouter)
 // Connect to MongoDB
 await connectDB();
 
-if(process.env.NODE_ENV !== "production"){
-    const PORT = process.env.PORT || 5000;
-    server.listen(PORT,"0.0.0.0" ()=> console.log("Server is running on PORT: " + PORT));
-}
+// if(process.env.NODE_ENV !== "production"){
+const PORT = process.env.PORT || 5000;
+server.listen(PORT,"0.0.0.0" ()=> console.log("Server is running on PORT: " + PORT));
+
 
 // Export server for Vervel
 export default server;
