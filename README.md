@@ -3,7 +3,7 @@
 QuickChat is a full-stack real-time chat application built with a modern MERN-style stack. It supports authentication, user profiles, messaging, and real-time updates using Socket.IO.
 
 ## 🚀 Live Demo
-- **Frontend (Vercel):** https://quick-chat-c4dxl76k3-rehan-padlaks-projects.vercel.app
+- **Frontend (Vercel):** https://quick-chat-wine.vercel.app/
 
 ## ✨ Features
 - User authentication (signup/login)
